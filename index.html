@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/main_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Flowerstick</title>
+</head>
+<body>
+    
+    <header class=" mt-4 mx-lg- mx-md-4 mx-sm-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <a href="#logo">
+                
+
+                <img src="qq/Logo.svg" alt="Flowerstick" class="me-5 ms-3 logo"> 
+            </a>
+          
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-5">
+                <li class="px-lg-5 px-sm-0 btn-link">
+                    <div class="dropdown">
+                        <a class="btn btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <p> Recipes</p>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#recipes">Free plan</a></li>
+                            <li><a class="dropdown-item" href="#recipes">Standart plan</a></li>
+                            <li><a class="dropdown-item" href="#recipes">Premium plan</a></li>
+                        </ul>
+                        </div>
+                    
+                     </li>
+                <li class="px-lg-5 px-sm-0 btn-link "><a href="#blog" ><p>Blog</p></a> </li>
+                <li class="px-lg-5 px-sm-0 btn-link "><a href="#support" ><p>Customer Support</p></a> </li>
+                </li>
+                </ul>
+            </div>
+           
+            <div>
+                <button  type="button" class="btn btn-outline-success " ><p>Log in</p></button>
+                <button  type="button" class="btn btn-success "><p>Start for free</p></button>
+             <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+        </nav>
+
+
+
+        <nav class="d-flex mx-5 mb-5 flex-wrap align-items-center justify-content-between nav">
+           
+            <ul class="nav p-3 justify-content-center ms-5">
+                
+            </ul>
+            
+        </nav>
+        <div class="mt-5 mx-5 ">
+            <ul class="d-flex justify-content-center align-items-center ">
+                <li><img src="qq/bagshop.svg" alt="none" class="mt-5 imgh"></li>
+                <li><h1 class="offset-md-2 col-md-8 ">Elevate Your Mealtime with AI-Powered Personalization</h1></li>
+                <li><img src="qq/cherry.svg" alt="none" class="mt-5 imgh" ></li>
+            </ul>
+        </div>
+        <div class=" ">
+            <ul class="d-flex justify-content-around align-items-center ">
+                <li><img src="qq/carrot.svg" alt="none" class="imgh"></li>
+                <li><p>Effortless Planning, Healthier Eating</p></li>
+                <li><img src="qq/vread.svg" alt="none" class="imgh"></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="d-flex margin offset-md-2 offset-lg-0 offset-1">
+                <li class="card border-0   col-2 mx-lg-4 mx-md-1">
+                     <h3 class="ms-3 my-lg-2" >95%</h3>
+                     <p class="mt-lg-2 mb-lg-1 mx-md-3">Improved Eating Habits</p>
+                     <img src="qq/bag95.jpg" alt="none">
+                </li>
+                
+                <li class="card border-0 col-md-2 mx-lg-4 col-2  mt-5 mx-md-1">
+                    <img src="qq/meal.jpg" alt="" >
+                </li>
+
+                <li class="card border-0 col-md-2 mx-lg-3 mx-md-1 ">
+                    <button class="btn btn-outline-success mt-1 mb-2 " type="button"><h3>Try Our Demo</h3></button>
+                    
+                    <button class="btn yield mt-3 " data-bs-toggle="modal" data-bs-target="#exampleModalToggle" type="button"><h3>Start For Free</h3></button>
+
+                        
+
+                        <!-- Модальное окно -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign in</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="recipient-name" class="col-form-label">Email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sign in</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Thanks for subscribing</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="btn btn-success yel mt-3 btn-lg btnhh" type="button"><h3 class="" >30 000 +</h3><h5>Happy Users</h5></button>
+                </li>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="delayedToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="qq/Logo.svg" class="rounded me-2" alt="logo">
+                        <strong class="me-auto">First week discount</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body text-dark">
+                        50% discount valid for another 3 hours!
+                    </div>
+                </div>
+            </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header flex-column pb-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h1 class="modal-title h3" id="exampleModalLabel">Thanks for subscribing!</h1>
+                    </div>
+                    <div class="modal-footer pb-4">
+                        <button type="button" class="btn btn-primary mx-auto" data-bs-dismiss="modal">CONTINUE WATCHING</button>
+                    </div>
+                    <figure class="figure figure-1 position-absolute w-25">
+                        <img src="./images/email.svg" class="figure-img img-fluid" alt="email illustration">
+                    </figure>
+                    <figure class="figure figure-2 position-absolute w-25">
+                        <img src="./images/email.svg" class="figure-img img-fluid" alt="email illustration">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+                <li class="card border-0 col-2 mx-lg-4 mt-5 mx-md-1  ">
+                    <img src="qq/bag.jpg" alt="">
+                    <h3>25%</h3>
+                    <p>Saved on Groceries</p>
+                </li>
+
+                <li class="card border-0 col-2 mx-lg-4 mx-md-1 ">
+                    <img src="qq/plantb.jpg" alt="">
+                </li>
+            </ul>
+           
+        </div>
+
+    </header>
+    <main class="container mt-5">
+        <div class="demo" >
+            
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">Demo</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">See how it works: your personalized meal planning journey </li>
+            </ul>
+            <div class="d-flex offset-1">
+              <img src="qq/video.jpg" alt="demo" class="col-lg-6 col-md-3 col-4 ">
+              <h1 class=" offset-1 text-end me-4">Every meal is a chance to nourish your body, inspire your mind, and feed your soul.</h1>
+            </div>
+
+            
+        </div>
+        <div class="how_it_works ">
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">How it works</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">Step into the world of hassle-free meal planning with our easy 3-step process </li>
+            </ul>
+
+                <ul class="d-flex">
+                    <li class="col-md-6 col-ms-4">
+                        <ul class=" ">
+                            <li>
+                                <h1 class=" text-start my-sm-3 ">01</h1>
+                            </li>
+                            <li class="mb-sm-5 mb-2">
+                                <h2 >Personalize Your Profile</h2>
+                            </li>
+                            <li class="my-sm-5 my-2 col-sm-6">
+                                <p>Begin by creating your profile. Tell us about your dietary preferences, nutritional goals, and budget. Our AI technology tailors every meal plan to fit your unique needs.</p>
+                            </li>
+                            <li>
+                                <button  type="button" class="btn btn-outline-success " ><p>Log in</p></button>
+                                 <button  type="button" class="btn btn-success "><p>Start for free</p></button>                    
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                               <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="qq/car1.jpg" class="d-block cards " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="qq/car2.jpg" class="d-block cards " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="qq/car3.jpg" class="d-block cards " alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+                </div>
+            </div>
+        </li>
+        </ul>
+
+        
+
+
+
+         <div class="healthy_insights my-md-5 my-ms-1 mx-5">
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">Healthy Insights</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">Latest News, Expert Blogs, and Nutritional Learning</li>
+            </ul>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#meal">Meal</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" data-bs-toggle="tab" href="#power">Power</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" data-bs-toggle="tab" href="#balanc">Balance</a>
+                </li>
+            </ul>
+            <div class="tab-content d-flex">
+                <div class="tab-pane active" id="meal">
+                    <ul class="d-flex">
+                        <li> <img src="qq/broc.jpg" alt="" class="cards"></li>
+                        <li class="my-md-5">                    
+                            <h1 class="text-center offset-1 col-md-6 my-5">Mastering Meal Prep: Time-Saving Tips for Busy Weekdays</h1>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="power">
+                    <ul class="d-flex">
+                        <li> <img src="qq/salad.jpg " class="cards" alt=""></li>
+                        <li class="my-5">                    
+                            <h1 class="text-center offset-1 col-md-6 my-5">The Power of Plant-Based: Benefits Beyond the Plate</h1>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="balanc">
+                    <ul class="d-flex">
+                        <li><img src="qq/plantb.jpg" class="cards" alt="" ></li>
+                        <li class="my-5">                    
+                            <h1 class="text-center offset-1 col-md-6 my-5">Balancing Nutrients: A Guide to a Well-Rounded Diet</h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="Recipes my-md-5 my-ms-1 renone">
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">Recipes</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">Recipes crafted by AI, personalized to perfectly align with your unique dietary needs and flavor preferences </li>
+            </ul>
+            <div>
+                <ul class="d-flex renone">
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <li class="d-none ">
+                        <li class="">
+                             <li>
+                                <div class="card ">
+                                    <div class="card-body d-flex nomg">
+                                    <div class="ms-3 col-6 my-3 ">
+                                        <h5 class="mb ">Savory Quinoa and Roasted Vegetable Bowl</h5>
+                                        <button type="button" class="btn  btn-success"> <p>Learn More</p></button>
+                                    </div>
+                                <img src="qq/savory.jpg" alt="" class="offset-1  resimg mx-md-2 ">
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body  d-flex justify-content-around nomg">
+                                        <img src="qq/herb.jpg" alt="" class="ms-2   resimg mx-md-2 ">
+                                        <div class=" my-4 col-6 text-end ">
+                                            <h5 class="me-ms-3 mb">Savory Quinoa and Roasted Vegetable Bowl</h5>
+                                            <button type="button" class="btn btn-outline-success  "><p >Learn More</p></button>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body d-flex nomg">
+                                    <div class="my-3 ms-3 col-6">
+                                        <h5 class="mb">Savory Quinoa and Roasted Vegetable Bowl</h5>
+                                        <button type="button" class="btn btn-success "><p>Learn More</p></button>
+                                    </div>
+                                <img src="qq/kale.jpg" alt="" class="offset-1  resimg mx-md-2">
+                                    </div>
+                                </div>
+                                
+                            </li>
+                        
+                        
+                    </li>
+                    </div>
+                    <div class="renone">
+                        <li class="nomg">
+                        <img src="qq/biglunch.jpg" alt="" class="col-md-12 mx-md-3 mx-sm-1 cards offset-1 ">
+                    </li>
+                    </div>
+                   
+                    
+                </ul>
+            </div>
+
+        </div>
+        <div class="Testimonials my-md-5 my-ms-1">
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">Testimonials</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">Real stories from satisfied users: see how our platform changes lives</li>
+            </ul>
+            <div class="d-flex justify-content-center">
+                <div class="card mx-2  col-3">
+                    <div class="card-body">
+                        <p class="card-text">Since using AIChefMate, I've rediscovered my love for cooking! The meal plans are easy and delicious. It's been a game-changer for my busy lifestyle.</p>
+                        <div class="d-flex">
+                            <img src="qq/emily.svg" class="card-img-start imgh " alt="...">
+                            <h2 class=" offset-1">Emily R.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-2 col-3" >
+                    <div class="card-body">
+                        <p class="card-text">Switching to AIChefMate has been a revelation for my meal prep routine. The AI-generated plans are spot-on with my tastes and nutritional needs, making healthy eating effortless and enjoyable.</p>
+                        <div class="d-flex">
+                            <img src="qq/mark.svg" class="card-img-start imgh" alt="...">
+                            <h2 class=" offset-1">Mark T.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-2  col-3" >
+                    <div class="card-body">
+                        <p class="card-text">I never knew healthy eating could be this simple and satisfying. Thanks to AIChefMate, my family enjoys diverse, nutritious meals every day.</p>
+                        <div class="d-flex">
+                            <img src="qq/sarah.svg" class="card-img-start imgh " alt="...">
+                            <h2 class=" offset-1">Sarah J.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-2  col-3" >
+                    <div class="card-body">
+                        <p class="card-text">The grocery savings have been incredible! Plus, every meal feels tailored just for me. I'm eating better and feeling great. A big thumbs up!</p>
+                        <div class="d-flex">
+                            <img src="qq/rebecca.svg" class="card-img-start imgh" alt="...">
+                            <h2 class=" offset-1">Rebecca S.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+        <div class="Pricing mt-5 mb-5 renone">
+            <ul class="d-flex align-items-center mb-5">
+                <li class="heads mx-2">Pricing</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">Find your perfect plan: tailored pricing for every need </li>
+            </ul>
+            <div class="d-flex text-center h-100 ">
+                <img src="qq/priceleft.jpg" class="col-md-1 h-75 my-5 ">
+                <div class="card card-rec text-center my-3 col-md-3">
+                    <div class="card-body">
+                        <div class="h-100 ">
+                            <p class="card-text">Free plan</p>
+                            <h1 class="mt-4">$0</h1>
+                            <p>per month</p>
+                            
+                            <ul class="text-center mb-5">
+                                <li class="dots my-1"><p>Basic AI meal planning</p></li>
+                                <li class="dots my-1"><p>Limited recipe access</p></li>
+                                <li class="dots my-1"><p>Manual grocery list creation</p></li>
+                            </ul>
+                            <hr  style="width: 100%; border-top: 3px solid #000000; color:black">
+                            <p class="mt-5 text-start"><b>Best For:</b> Those who want to explore 
+                                thae platform's basic functionalities.</p>
+                        </div>
+                        <button type="button" class="btn btn-success btnr  ">Get Started For Free</button>                          
+                    </div>
+                </div>
+                <div class="card  card-recp col-md-4 h-150" >
+                    <div class="card-body">
+                        <div class="h-100">
+                            <p class="card-text"><B>Standard Plan</B></p>
+                            <h1 mt-4>$9.99</h1>
+                            <p><b>per month</b></p>
+                            <ul class="mb-5">
+                                <li class="dots my-1"><p>Comprehensive AI meal planning</p></li>
+                                <li class="dots my-1"><p>Full recipe library access</p></li>
+                                <li class="dots my-1"><p>Automated grocery lists</p></li>
+                                <li class="dots my-1"><p>Grocery delivery integration</p></li>
+                            </ul>
+                            <hr style="width: 100%; border-top: 3px solid #000000; color:black">
+                            <p class="text-start"><b>Best For:</b>Individuals or families looking for full meal 
+                                planning support and convenience.</p>
+                        </div>
+                        <button type="button" class="btn btn-success btnr premium"><b>Subscribe Now</b></button>
+
+                    </div>
+                </div>
+
+                <div class="card  card-rec my-3 col-md-3" >
+                    <div class="card-body ">
+                         <div class="h-100">
+                            <p class="card-text">Premium Plan</p>
+                            <h1 mt-4>$19.99</h1>
+                            <p>per month</p>
+                            <ul class="mb-5">
+                                <li class="dots my-1 "><p>All Standard features</p></li>
+                                <li class="dots my-1"><p>Exclusive gourmet recipes</p></li>
+                                <li class="dots my-1"><p>Nutritional consultations</p></li>
+                                <li class="dots my-1"><p>Advanced customization options</p></li>
+                            </ul>
+                            <hr style="width: 100%; border-top: 3px solid #000000; color:black">
+                            <p class="text-start"><b>Best For:</b> Users seeking a premium culinary experience with 
+                                added personalization and expert guidance.</p>
+                        </div>
+                        <button type="button" class="btn btn-success btnr">Go Premium</button>
+                    
+                    </div>
+                </div>
+                <img src="qq/pricereght.jpg" class="col-md-1 h-75 my-5 " alt="">
+
+            </div>
+
+        </div>
+        <div class="Get_our_best_offer_now ">
+            <ul class="d-flex align-items-center">
+                <li class="heads mx-2">Get our best offer now!</li>
+                <li class="heads mx-2">/</li>
+                <li class="mx-2 prefix">We’re here to help! </li>
+            </ul> 
+            <div class="row d-flex">
+                <figure class="figure col-5  me-5">
+                   <img src="qq/bestoffer.jpg" class="figure-img img-fluid rounded " alt="...">
+                </figure>
+                <div class="offset-1 col-4 forms">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="password" aria-label="password" aria-describedby="basic-addon2">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Message</span>
+                        <textarea class="form-control" aria-label="Message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success mt-3">Get support</button>
+                </div>
+            </div>  
+            
+
+        </div>
+        
+        
+
+    </main>
+    <footer class="container-fluid bg-dark pt-5">
+        <div class="container-lg">
+
+<!-- Кнопка-триггер модального окна -->
+  <div class="FAQ ms-5 mb-3"></div>
+<button type="button" class="btn btn btn-lg yield mt-3 mb-5 faq" data-bs-toggle="modal" data-bs-target="#FAQ">
+  Frequently Asked Questions
+</button>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="FAQ" tabindex="-1" aria-labelledby="FAQLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 faqp" id="FAQLabel">FAQ</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <h2>How does the AI create personalized meal plans?</h2>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body faqp">Our AI system analyzes your dietary preferences, health goals, and budget to curate meal plans that are unique to you. It continually learns from your feedback and choices to
+         improve its suggestions over time. </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       <h2> How does the grocery delivery service work?</h2>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body faqp">How can I access nutrition education and healthy eating tips?</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed faqp" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       <h2> Are there options for budget-conscious users?</h2>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body faqp">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+           
+       
+
+
+
+        </div>
+        <div class="col-12 row">
+            <div class="col-6 d-flex">
+                <div class="col-2">
+                    <img src="qq/Logo.svg" alt="">
+                </div>
+                <div class="col-2 flex-wrap me-3">
+                    <ul>
+                        <li><a href="Recipes" class="faqcol">Recipes</a></li>
+                        <li><a href="Blog" class="faqcol">Blog</a></li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="col-2 ms-4 faqcol">
+                    <a href="Customer Support " class="faqcol">Customer Support</a>
+                    <a href="Your Profile" class="faqcol">Your Profile</a>
+                </div>
+            </div>
+            <div class="col-6 d-flex">
+                <div class="col-8">Join us on our journey to make meal planning simple and joyful. 
+                    Connect with us on social media, explore our FAQs for quick answers, or drop us a line anytime.</div>
+                <div class="col-2">
+                    <img src="qq/facebook.svg" alt="" class="sub w-20 flex-wrap">
+                    <img src="qq/x.svg" alt="" class="sub flex-wrap">
+                    <img src="qq/tiktok.svg" alt="" class="sub flex-wrap">
+                </div>
+            </div>
+        </div>
+        <div>© 2064 AIChefMate. All rights reserved. | Privacy Policy | Terms of Use</div>
+        </div>
+        
+    </footer>   
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const toastElement = document.getElementById('delayedToast');
+                const toast = new bootstrap.Toast(toastElement);
+                toast.show();
+            }, 5000);
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('#carouselExampleCaptions');
+            const carouselInstance = new bootstrap.Carousel(carousel);
+
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const swipeThreshold = 50;
+
+            carousel.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            carousel.addEventListener('touchend', function(e) {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, { passive: true });
+
+            function handleSwipe() {
+                const swipeDistance = touchEndX - touchStartX;
+                if (Math.abs(swipeDistance) > swipeThreshold) {
+                    if (swipeDistance < 0) {
+                        carouselInstance.next();
+                    } else {
+                        carouselInstance.prev();
+                    }
+                }
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

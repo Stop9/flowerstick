@@ -1,0 +1,62 @@
+.btnr{
+    margin-top: -65px;
+     
+}
+.premium{
+    width: 280px;
+    @media screen and (max-width: 1300px){
+       width: 160px !important;
+        
+    } }
+.reserve{
+    display:flex;
+    @media screen and (max-width: 770px){
+       display: block;
+}
+}
+// .repa{
+//     @media screen and (max-width: 770px){
+//        width: 600px;
+// }
+
+.resimg{
+     @media screen and (max-width: 1300px){
+       margin-top: 10%;
+       margin-bottom: 10%;
+        
+    } 
+    @media screen and (max-width: 1400px){
+       width: 130px;
+        
+    } 
+    @media screen and (max-width: 1200px){
+       width: 100px;
+        
+    }
+}
+.card-rec{
+    @media screen and (max-width: 1300px){
+       height:510px !important;
+        
+    } 
+}
+.card-recp{
+    @media screen and (max-width: 1300px){
+       height:550px !important;
+        
+    } 
+}
+.mb{
+    margin-bottom: 10%;
+}
+.nomg{
+    @media screen and (max-width: 1300px){
+        margin: 0 !important;
+        padding: 0 !important;
+    } 
+}
+.renone{
+    @media screen and (max-width: 770px){
+        display: none;
+    } 
+}

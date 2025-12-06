@@ -1,0 +1,23 @@
+footer{
+    position: relative;
+    background-color: #213D34;
+    color: white;
+}
+.sub{
+    width: 30px !important;
+}
+.FAQ{
+    position: absolute;
+    top: -50px;
+}
+.faqcol{
+    color: #D9EF78 !important;
+}
+.faq{
+    @media screen and (max-width: 990px){
+        height: 50px !important;
+    } 
+}
+.faqp{
+    color: #213D34 !important;
+}

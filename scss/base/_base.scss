@@ -1,0 +1,151 @@
+
+body{
+  color: #213D34 !important;
+  padding: 0;
+}
+
+.trocchi-regular {
+  font-family: "Trocchi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.zen-kurenaido-regular {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ul,ul li{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+  font-family: 'Zen Kurenaido';
+  list-style: none;
+}
+.btn-link{
+    color: #213D34 !important; 
+    transition: color 0.2s ease-in;
+    text-decoration: none  !important;
+
+    
+}
+h1{
+  text-align: center;
+  font-family: "Trocchi";
+  font-size: 3rem !important;
+  @media screen and (max-width: 1400px){
+       font-size:40px !important;
+        
+    } 
+  @media screen and (max-width: 990px){
+       font-size:20px !important;
+        
+    } 
+     @media screen and (max-width: 770px){
+        font-size: small !important;
+        margin: 0 !important;
+    } 
+}
+h3{
+  font-family: "Trocchi";
+  font-size: 40px !important;
+  @media screen and (max-width: 1400px){
+       font-size:20px !important;
+        
+    } 
+  @media screen and (max-width: 990px){
+       font-size: 12px !important;
+        
+    } 
+
+}
+p{
+  font-family: "Zen Kurenaido";
+  font-size: 26px !important;
+  @media screen and (max-width: 1400px){
+       font-size:16px !important;
+        
+    } 
+  @media screen and (max-width: 990px){
+        font-size: small !important;
+        margin: 0 !important;
+    } 
+  @media screen and (max-width: 770px){
+        font-size: 10px !important;
+        margin: 0 !important;
+    } 
+    @media screen and (max-width: 660px){
+        font-size: 6px !important;
+        margin: 0 !important;
+    } 
+}
+h5{
+   @media screen and (max-width: 1400px){
+      font-size: 10px !important;
+        
+    } 
+     @media screen and (max-width: 900px){
+      font-size: 8px !important;
+        
+    } 
+  }
+h2{
+   @media screen and (max-width: 1400px){
+       font-size: 10px !important;
+    } 
+    @media screen and (max-width: 990px){
+        font-size: x-small !important;
+    } 
+    @media screen and (max-width: 770px){
+        font-size: 10px !important;
+    } 
+
+}
+a { 
+  text-decoration: none  !important;
+  color: #213D34 !important;
+  &:hover{
+        color: #D9EF78;
+
+    }
+}
+.dots{
+  list-style-type: disc !important;
+}
+.btn{
+    border-radius: 50px !important;
+    @media screen and (max-width: 990px){
+        height: 30px !important;
+        
+    } 
+    @media screen and (max-width: 770px){
+        height: 25px !important;
+        
+    } 
+
+}
+.imgh{
+  @media screen and (max-width: 770px){
+        height: 30px !important;
+        
+    } 
+}
+// img{
+//      @media screen and (max-width: 770px){
+//         max-width: 100% !important;
+//          max-height: 100% !important;
+//          display: block !important; 
+        
+//     } 
+// }
+// .btnbtm{
+//   display: flex !important;
+//   justify-content: end;
+//   align-content: flex-end;
+//   -ms-flex-align: e;
+// }
+// button{
+//   border-radius: 10% !important;
+// }
